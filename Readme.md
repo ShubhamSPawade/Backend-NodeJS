@@ -1,45 +1,79 @@
-# Begining of Node
-Following Mastering NodeJS tutorial of Piyush Garg. 
+# Node.js Bootcamp by Piyush Garg
 
-| S.No. | Topic        | Points |
-| ---    |  ---         | ----- |
-| 01. |   What is NodeJS ? |  <ul><li> JavaScript Engine </li><li> Benefits of NodeJS </li><li> What is NodeJS </li></ul>|
-| 02. | NodeJS Installation |<ul><li> Steps to install NodeJS</li><li> What is npm </li></ul>|
-| 03. | Hello World NodeJS| <ul><li> Print Hello World using NodeJS </li></ul>|
-| 04. | Modules in NodeJS |<ul><li> Spiliting funtions using modular approch<li> De-structring</li></ul>  |
-| 05. | File Handling in NodeJS |<ul><li> File Handling Module (fs)<li> Synchronous call and Async call in fs module<li> CRUD operation on files. </li></ul> |
-| 06. | How NodeJS Works |<ul><li> Client Server Architecture<li> How nodejs work internally<li> Request -> Blocking & Non-Blocking </li></ul>|
-| 07. | Building Http Server in NodeJS |<ul><li> create a http server using `http` module<li> create and run a http server</li></ul> |
-| 08. | Handling Url |<ul><li> Structure of URL(Uniform Resource Locator)<li> How to user `url` module in server</li></ul> |
-| 09. | Http methods |<ul><li> GET , POST , PUT , PATCH , DELETE<li> Make All these requests using Http mehtod </li></ul>|
-| 10. | Getting Start with Express |<ul><li> Installing express<li> Made express server and requests </li></ul>|
-| 11. | How Versioning Works in NodeJS ? |<ul><li> About Versioning of NodeJS<li> Minor Fix, Recommended Bug Fix , Major Realese </li></ul>|
-| 12. | What is Rest API ? |<ul><li> Restfull API Rules <li> Work on Client Server Architecture <li> Respect all Http methods </li></ul>|
-| 13. | Building Rest API using NodeJS and Express |<ul><li>Api to list all the users</li> <li>Uses Dynamic Path Parameter to show user </li> <li>Api to create a new user </li> <li>Api to delete user  </ul> |
-| 14. | Intro to Postman for Rest API | <ul><li>Uses POSTMAN app to create apis</li></ul> |
-| 15. | Express Middleware | <ul><li>What is middleware</li> <li>Middleware functions</li></ul> |
-| 16. | What are Http Headers in API | <ul> <li>What are http Headers in API ?</li> </ul> |
-| 17. | Http Status Codes | <ul><li>Status Code</li> <li> Types of Responses </li> </ul> |
-| 18. | Getting Started with MongoDB |<ul><li>What is MongoDB ?</li> <li>Commands of MongoDB</li> </ul> |
-| 19. | Connecting NodeJS with MongoDB | <ul><li>What is Mongoose?</li> <li>What are the schema?</li><ul> |
-| 20. | Model View Controller in NodeJS | <ul><li>Model View Controller</li></ul>|
-| 21. | Custom URl Shortner | <ul><li>Started the URL Shortner Project</li></ul>|
-| 22. | Server Side Rendering with EJS and NodeJS | <ul><li> Uses EJS for Server side rendering for URL Shortner</li></ul> |
-| 23. | Building Node.js Authentication from Scratch |<ul><li>Authentication </li> <li>Authentication Patterns - Stateless & Statefull</li> <li>How to transfer uid?</li> <li>Express flow of authentication</li></ul> | 
-| 24. | JWT Authentication |<ul><li> Problems in Statefull Authentication </li><li> Stateless Authentication</li></ul> |
-| 25. | What are Cookies ? | <ul><li>Cookies in NodeJS</li> <li> Create cookies using - Browser, Header </li></ul> |
-| 26. | Authorization |<ul><li>What is Authorization?</li> <li>How authorization works? </li></ul>|
-| 27. | Creating Discord Bot in NodeJS | <ul><li>How to make Discord Bot?</li></ul> |
-| 28. | Uploading Files with Multer |<ul><li>Steps to upload file with Multer</li></ul> |
-| 29. | Setting Up Project - Blog App | <ul><li>Started Blog App</li><li>Steps to Create Blog App</li></ul>|
-| 30. | Setting Up Authentication - Blog App |<ul><li>Started Blog App</li><li>Steps to Create Authentication </li></ul>|
-| 31. | Complete Blog App |<ul><li>Completed the Blog App</li></ul>|
-| 32. | Deploy NodeJS App on Cloud |<ul><li>Learned about `.env` file</li><li>Steps to deploy NodeJS app on Cloud</li></ul>|
-| 33. | Websocket |<ul><li>What is WebSocket?</li><li>What is the Problem on Other Protocol ?</li></li><li>How could be solved via WebSocket using `Socket.io` Library?</li></ul>|
-| 34. | Streams |<ul><li>What is Streams in NodeJS?</li><li>What is the Problem?</li></li><li>How could be solved via Streams?</li></ul>|
-| 35. | Scale NodeJS app using Cluster module |<ul><li>Problem</li><li>Solution</li></ul>|
-| 36. | What is Nginx ? |<ul><li>What is Nginx?</li><li>Advantage</li></ul>|
-| 37. | Install & Setup Nginx |<ul><li>Installation of Nginx on Docker</li><li>Stpes to Install</li></ul>|
-| 42. | GraphQL |<ul><li>What is GraphQL?</li><li>Problems Solved by GraphQL</li><li>What is Axios?</li></ul>|
+Welcome to the Node.js Bootcamp by Piyush Garg!
+This repository contains the source code and notes for the bootcamp,
+organized into sections corresponding to the videos in
+the [Master NodeJS playlist](https://www.youtube.com/playlist?list=PLinedj3B30sDby4Al-i13hQJGQoRQDfPo)
+on [Piyush Garg's YouTube channel](https://www.youtube.com/@piyushgargdev).
 
+## Overview
 
+This bootcamp is designed to teach you Node.js and backend development from scratch. Whether you're a beginner or an
+experienced developer looking to expand your skill set, this course will guide you through the fundamental concepts and
+practical applications of Node.js.
+
+## Contents
+
+The repository is organized into sections corresponding to each video in the playlist. Each section contains:
+
+- Source code: The code examples demonstrated in the video.
+- Notes: brief explanations, additional resources, and insights discussed in the video.
+
+## Getting Started
+
+To get started with the bootcamp:
+
+1. Clone or download this repository to your local machine.
+2. Navigate to the section you're interested in.
+3. Explore the source code and notes for that section.
+4. Follow along with the video on Piyush Garg's YouTube channel.
+
+## Contribution
+
+If you find any errors, have suggestions for improvements, or want to contribute additional resources, feel free to open
+an issue or submit a pull request.
+
+## Contact
+
+For any questions or further discussions, you can reach out to me:
+
+<table>
+  <tr>
+    <th></th>
+    <th>Social Media</th>
+    <th>Username</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /></td>
+    <td>Email</td>
+    <td><code>ranitmanik.dev@gmail.com</code></td>
+    <td><a href="mailto:ranitmanik.dev@gmail.com" target="_blank">Email</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /></td>
+    <td>LinkedIn</td>
+    <td><code>Ranit Manik</code></td>
+    <td><a href="https://www.linkedin.com/in/ranit-manik/" target="_blank">LinkedIn</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="20" /></td>
+    <td>Instagram</td>
+    <td><code>ranit_manik_</code></td>
+    <td><a href="https://www.instagram.com/ranit_manik_/" target="_blank">Instagram</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="20" /></td>
+    <td>Facebook</td>
+    <td><code>RanitKumarManik</code></td>
+    <td><a href="https://www.facebook.com/RanitKumarManik/" target="_blank">Facebook</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="20" /></td>
+    <td>Twitter</td>
+    <td><code>RANIT_MANIK</code></td>
+    <td><a href="https://twitter.com/RANIT_MANIK" target="_blank">Twitter</a></td>
+  </tr>
+</table>
+
+Happy coding!
